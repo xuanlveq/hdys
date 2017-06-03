@@ -1,0 +1,51 @@
+/*购物车进程图*/
+.shoppingCar{ width: 1200px; margin: 0 auto;height: auto;}
+.cartop{ overflow: hidden;margin: 30px auto 10px;width: 1188px;height: auto;position: relative; }
+.cartop .cartop_left{ float: left; width: ;height: 44px;}
+.cartop .cartop_left a{ width: 414px;height: 44px;background: url(../img/cart_img.png) no-repeat -15px -17px; display: inline-block; }
+.cartop .cartop_right{ width: 700px;height: 31px; margin: 15px 2px 0;background: url(../img/cart_img.png) no-repeat; background-position: -15px -89px;float: left;position: absolute; right: 0;bottom: 0;}
+
+/*购物车内容*/
+.carcontent{ width: 1200px;height: auto; }
+.carcontent .carcontent_top{ width: 1189px;height: 36px;margin-top: 15px;font-size: 12px;font-family: "微软雅黑"; background: url(../img/cartbar2.png) 20px 0;border-left: 1px solid #ccc;border-right: 1px solid #ccc;}
+.carcontent .carcontent_top li{ float:left; height: 36px;line-height: 36px;text-align: center;}
+.carcontent .carcontent_top .w381{ width: 381px; }
+.carcontent .carcontent_top .w132{ width: 132px; }
+.carcontent .carcontent_top .w122{ width: 122px; }
+.carcontent .carcontent_top .w134{ width: 134px; }
+.carcontent .carcontent_top .w186{ width: 186px; }
+
+    /*商品*/
+.carcontent .carcontent_body{ width: 1189px;height: auto; border-left: 1px solid #ccc;border-right:1px solid #ccc; font-family: "微软雅黑";}
+.carcontent .carcontent_body li{ width: 100%;height: 132px; border-bottom: 1px solid #ccc; padding-top: 10px;}
+.carcontent .carcontent_body .productname{ width: 367px;height: 134px/*auto*/;margin-left: 15px;padding-bottom: 10px;text-align: left; float: left; font-size: 12px;}
+.carcontent .carcontent_body .productname img{ width: 112px;height: 112px; float: left;}
+.carcontent .carcontent_body .productname a{ display: inline-block;width: 240px; height: 32px; float: left;margin: 20px 0 10px 10px;font-size: 14px;}
+.carcontent .carcontent_body .productname span{ display: inline-block;float: left;margin-left:10px; }
+
+.carcontent .carcontent_body .price{ width: 132px; padding: 40px 0;height: 36px;line-height: 18px;float: left; text-align: center; font-family: "微软雅黑";font-size: 14px;}
+.carcontent .carcontent_body .price .ophead,.oldprice{ text-decoration: line-through; }
+
+.carcontent .carcontent_body .count{ width: 132px;height: 132px;line-height: 116px; float: left;text-align: center;}
+.carcontent .carcontent_body .count input{ width: 30px;height: 21px; outline: none; }
+.carcontent .carcontent_body .count button{ width: 26px;height: 26px; }
+
+.carcontent .carcontent_body .add{ width: 122px;height: 132px;line-height: 116px; float: left;text-align: center; font-family: "微软雅黑";}
+
+.carcontent .carcontent_body .do{ width: 134px;height: 132px;line-height: 116px; float: left;text-align: center;}
+.carcontent .carcontent_body .do span{ display: inline-block;width: 40px;cursor: pointer; }
+.carcontent .carcontent_body .do span:hover{ text-decoration: underline;color: red; }
+
+.carcontent .carcontent_body .beizhu{ width: 186px;height: 132px;float: left;text-align: center;}
+
+    /*结算*/
+.carcontent .carcontent_bottom1{ width: 1189px;height: 99px;position: relative;border: 1px solid #ccc;border-bottom:none; font-family: "微软雅黑";font-size: 12px;}
+.carcontent .carcontent_bottom1 table{ position: absolute;right: 0;bottom: 10px; }
+.carcontent .carcontent_bottom1 .shopping_count .shuliang{ display: inline-block; width: ;height: ; }
+.carcontent .carcontent_bottom1 .shopping_count .zongji{ display: inline-block; width: ;height: ; }
+.carcontent .carcontent_bottom2{ width: 1189px;height: 46px;line-height: 46px;border: 1px solid #ccc; font-family: "微软雅黑";font-size: 12px; }
+.carcontent .carcontent_bottom2 div{ width: 150px;height: 100%; float: right;}
+.carcontent .carcontent_bottom2 span{ display: inline-block; height: 46px;line-height: 46px;}
+.carcontent .carcontent_bottom2 .shopping_add{ display: inline-block; color: red;font-size: 24px; }
+.carcontent .carcontent_bottom3{ width: 1189px;height: 100px; border: 1px solid #ccc;border-top: none;position: relative;}
+.carcontent .carcontent_bottom3 .shopping_btn{  width: 157px;height: 36px; background: url(../img/cart_img.png) no-repeat -16px -361px;position: absolute; top: 20px; right: 0;cursor: pointer;}

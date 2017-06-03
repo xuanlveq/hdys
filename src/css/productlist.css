@@ -1,0 +1,7 @@
+.w1032{ width: 1032px;margin:0 auto; }
+.productlist ul li{ width: 240px;height: 284px; padding: 7px 7px 0 7px; float: left;text-align: center;border:2px solid #fff;}
+.productlist ul li a{ display: inline-block;width: 222px;height: 222px; }
+.productlist ul li img{ width: 222px;height: 222px; }
+.productlist ul li .newprice{ font-size: 18px;color: red; font-family: "微软雅黑";}
+.productlist ul li .oldprice{ font-size: 12px;text-decoration:line-through;color: #666;font-family: "微软雅黑"; }
+.productlist ul li:hover{ border-color: red; transition: all 1s;}
